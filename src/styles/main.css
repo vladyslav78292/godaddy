@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+h1,
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+td,
+th,
+ol,
+button,
+p,
+a,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'GD Sherpa', Arial;
+  color: #111111;
+}
+
+#domainBanner {
+  padding-bottom: 20px;
+  background-color: #D8EEEF;
+}
+
+.logo__container {
+  margin-left: 0.5rem;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+.domain {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.domain__info {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.button__container {
+  background-color: #111111;
+  font-size: 16px;
+  width: 248px;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.header__button {
+  color: white;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.add {
+  margin-top: 5px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  margin: 0px;
+  width: 788px;
+  min-width: 0px;
+  max-width: 788px;
+  border: 1px solid #D6D6D6;
+  padding: 16px 32px 32px;
+  background-color: white;
+}
+
+main > div > span {
+  font-size: 14px;
+  color: #555555;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.add__link {
+  font-weight: 700;
+  background-color: #02198b;
+  border-radius: 25px;
+  border: 4px solid #dddddd;
+  font-family: Arial, arial, sans-serif;
+  font-size: 24px;
+  line-height: 48px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 40px;
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.search {
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+}
+
+.arrow {
+  min-width: 24px;
+}
+
+.add__link > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer {
+  width: 100%;
+  padding-top: 50px;
+  max-width: 1200px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+footer > span > a {
+  color: black;
+  text-decoration: none;
+}
